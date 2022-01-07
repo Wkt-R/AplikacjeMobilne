@@ -12,7 +12,6 @@ import {
   VStack,
   Code,
 } from "native-base";
-import NativeBaseIcon from "./components/NativeBaseIcon";
 
 // Define the config
 const config = {
