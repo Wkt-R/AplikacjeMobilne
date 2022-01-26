@@ -25,7 +25,7 @@ export const Payment = ({ route }) => {
       <SafeAreaView>
         <Center>
           <Heading>
-            Kwota do zaplaty to: {amount} za {name}
+            You have to pay {amount} $ for {name}
           </Heading>
         </Center>
         <TextInput
@@ -56,3 +56,13 @@ export const Payment = ({ route }) => {
     </VStack>
   );
 };
+
+const styles = StyleSheet.create({
+  input: {
+    fontSize: 40,
+    height: 70,
+    margin: 12,
+    borderWidth: 1,
+    padding: 10,
+  },
+});

@@ -17,15 +17,6 @@ import TopMenu from "./components/menu/TopMenu/TopMenu";
 import { Wallet } from "./components/screens/Wallet/WalletScreen";
 import { createStackNavigator } from "@react-navigation/stack";
 
-// Define the config
-const config = {
-  useSystemColorMode: false,
-  initialColorMode: "dark",
-};
-
-// extend the theme
-export const theme = extendTheme({ config });
-
 const Stack = createStackNavigator();
 
 export default function App() {
